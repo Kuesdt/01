@@ -94,7 +94,7 @@
                 audio_music.pause(); //
                 img_music.style.webkitAnimation="";
                 div_record.style.webkitAnimation="btn_rotate 1s linear infinite";
-                $(".div_record_tips").html("正播放").show(); 
+                $(".div_record_tips").html("播放中").show(); 
                 timeout_record=setTimeout(function(){$(".div_record_tips").hide()}, 2500);
             }else{
                 console.log('switch record to pause');  
